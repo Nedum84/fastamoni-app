@@ -14,25 +14,25 @@ Test flutter mobile application with 'https://reqres.in/' api and provider for s
 
 ## Screens
 
-### Splash screen
+#### Splash screen
 
-<img src="assets/screenshots/screen1.png" width="200">
+<img src="assets/screenshots/screen1.png" width="300">
 
 #### Login screen
 
-<img src="assets/screenshots/screen2.png" width="200">
+<img src="assets/screenshots/screen2.png" width="300">
 
 #### Register screen
 
-<img src="assets/screenshots/screen3.png" width="200">
+<img src="assets/screenshots/screen3.png" width="300">
 
 #### Home screen
 
-<img src="assets/screenshots/screen4.png" width="200">
+<img src="assets/screenshots/screen4.png" width="300">
 
 #### Users screen
 
-<img src="assets/screenshots/screen5.png" width="200">
+<img src="assets/screenshots/screen5.png" width="300">
 
 <!-- ![splash screen](assets/screenshots/screen1.png)
 ![login screen](assets/screenshots/screen2.png)
