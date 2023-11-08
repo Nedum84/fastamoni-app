@@ -25,6 +25,9 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
   @override
   void initState() {
     super.initState();
+    final controller = context.read<UserProvider?>();
+
+    nameController.text = controller?.user?.name ?? "";
   }
 
   _onSubmit() async {
@@ -60,8 +63,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final controller = context.watch<UserProvider?>();
-
     return AppLayout(
       title: 'Edit Profile',
       padding: 16,
@@ -77,7 +78,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
             ),
           const SizedBox(height: 12),
           TextInput(
-            controller: nameController..text = controller?.user?.name ?? "",
+            controller: nameController,
             label: 'Name',
             hintText: 'Enter full name',
             enabled: !isSubmitting,
