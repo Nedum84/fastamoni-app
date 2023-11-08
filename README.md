@@ -11,3 +11,11 @@ Test flutter mobile application with 'https://reqres.in/' api and provider for s
 - a homepage displaying User full name
 - a screen to edit user detail
 - A paginated screen showing all the users
+
+## Screens
+
+![splash screen](assets/screenshots/screen1.png)
+![login screen](assets/screenshots/screen2.png)
+![register screen](assets/screenshots/screen3.png)
+![home screen](assets/screenshots/screen4.png)
+![users screen](assets/screenshots/screen5.png)
